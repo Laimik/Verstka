@@ -1,0 +1,238 @@
+.mail {
+    width: auto;        
+    padding: 0 35px 0 29px;           
+    background-color: #fff;    
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.mailButtons {    
+    min-height: 45px;
+    padding: 30px 0 31px 0;
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+}
+
+.mailButtonsStyle {
+    width: 47px;
+    height: 47px;
+    margin-right: 10px;
+    padding-left: 1px;
+    border-radius: 100px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.mailButtonsWrapper:after {
+    content: '';    
+    display: block;
+    float: left;
+    margin: 0 0 0 -30px;
+    width: 120%;
+    height: 1px;
+    border: 1px solid #979797;
+    opacity: 0.1;
+}
+
+.mailTheme {
+    float: left;    
+    margin: 21px 0 22px 0;
+    width: 100%;
+    height: 29px;
+    color: #4c4f59;
+    font-family: "SF UI Display";
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.mailUserInfo {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mailLine:after {    
+    content: '';
+    margin: 17px 0 0 0;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 1px;
+    border: 1px solid #8e8e93;
+    opacity: 0.1;    
+}
+
+.mailUserWrapper {
+    float: left;
+}
+
+.mailUserPhoto {
+    float: left;
+}
+
+.mailUserMail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.mailName {
+    color: #4c4f59;
+    font-family: "SF UI Display";
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.mailFrom {
+    color: #6b6e7f;
+    font-family: "SF UI Display";
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.mailWho {
+    color: #4c4f59;
+    font-family: "SF UI Display";
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.mailTime {
+    opacity: 0.3;
+    color: #4c4f59;
+    font-family: "SF UI Display";
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: right;
+}
+
+.mailText {
+    float: left;
+    margin-top: 23px;
+    text-align: start;
+    color: #65676e;
+    font-family: "SF UI Display";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.newLine {
+    width: 100%;         
+    line-height: 30px;
+}
+
+.mailHello {        
+    line-height: 24px;
+}
+
+.mailTextNormal {       
+    line-height: normal;
+}
+
+.mailUploadFileWrapper {
+    float: left;
+    width: 100%;
+}
+
+.mailUploadFile {
+    float: left;    
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid#ebebf5;  
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.mailUserfile {
+    margin-left: 4px;
+    opacity: 0.5;
+    color: #2e2e2e;
+    font-family: "SF UI Display";
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.mailButtonsSend {
+    float: left;  
+    margin-top: 40px;  
+}
+
+.mailButtonReply {
+    width: 125px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;      
+    margin-right: 15px;
+    border-radius: 100px;
+    border: 1px solid#ebebf5;
+    background-color: #00b96e;
+    color: #ffffff;
+    font-family: "SF UI Display";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    border: none;
+    outline: none;
+}
+
+.mailButtonForward {
+    width: 125px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;      
+    border-radius: 100px;
+    border: 1px solid#ebebf5;
+    background-color: #fff;
+    color: #999eb1;
+    font-family: "SF UI Display";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    border: none;
+    outline: none;
+}
+
+.buttonTextReply {
+    margin-right: 5px;
+}
+

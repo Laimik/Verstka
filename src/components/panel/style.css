@@ -1,0 +1,206 @@
+@import url('../../fonts/SF/stylesheet.css');
+
+.panel {        
+    width: 18.5%;
+    float: left; 
+    display: flex;
+    justify-content: flex-start;    
+    flex-direction: column;
+    padding: 30px 0 0 30px;
+    background-color:#fff;
+}
+
+.buttonCompose {    
+    width: 125px;
+    height: 45px;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 21px 0 21px;
+    border-radius: 100px;
+    background-color: #00b96e;
+    border: none;
+    outline: none
+}
+
+.buttonComposeText {
+    width: 59px;
+    height: 17px;
+    color: #ffffff;
+    font-family: 'SF UI Display';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;   
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.spanMailbox {
+    padding-top: 20px;
+    width: 63px;
+    height: 18px;
+    color: #8f929d;
+    font-family: "SF UI Display";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.buttonMenu {
+    width: 105px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;    
+    padding: 0;    
+    background-color: #fff;    
+    border: none;
+    outline: none
+}
+
+.buttonMenuText {
+    padding-left: 10px;
+    width: 55px;
+    height: 16px;
+    color: #8e8e93;
+    font-family: "SF UI Display";
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.buttonMenuSvg {
+    fill:#8e8e93;
+}
+
+.buttonMenu:hover {
+    background-color: rgb(250, 242, 242);
+}
+
+.buttonMenu:active .buttonMenuText {
+    color: #4c4f59;    
+}
+
+.buttonMenu:active .buttonMenuSvg {
+    fill: #4c4f59; 
+}
+
+.line:after {
+    content: '';
+    margin: 20px 30px 0 0;
+    display: block;
+    width: 75%;
+    height: 1px;
+    border: 1px solid #8e8e93;
+    opacity: 0.1;
+}
+
+.refLinkedn {
+    text-decoration:none;    
+    padding-top: 20px;
+    width: 47px;
+    height: 16px;
+    color: #8e8e93;
+    font-family: "SF UI Display";
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.buttonMenuPurple {
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    border: 2px solid #9200ff;
+}
+
+.buttonMenuOrange {
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    border: 2px solid #ff7100;
+}
+
+.buttonMenuYellow {
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    border: 2px solid #d0db00;
+}
+
+.buttonMenuBlue {
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    border: 2px solid #00dcff;    
+}
+
+.lineBottom:before {
+    content: '';
+    margin: 0 0 12px -30px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 1px solid #8e8e93;
+    opacity: 0.1;    
+}
+
+.buttonMenuFooter {
+    margin-left: -15px;       
+    display: block;
+    position: absolute; 
+    bottom: 32px; 
+    width: 18.5%;
+    height: 30px;
+    text-align: center;    
+}
+
+.buttonMenuFooterPhoto { 
+    float: left;
+}
+
+.buttonMenuFooterWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6px;
+}
+
+.buttonMenuFooterUsername {
+    float: left;
+    width: 82px;
+    height: 17px;
+    color: #323232;
+    font-family: "SF UI Display";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.buttonMenuFooterUseremail {
+    width: 117px;
+    height: 12px;
+    opacity: 0.5;
+    color: #323232;
+    font-family: "SF UI Display";
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
